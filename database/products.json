@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone A12",
+      "description": "6.5 inch display, 64GB storage",
+      "price": 250.00,
+      "stock": 12
+    },
+    {
+      "id": 2,
+      "name": "Wireless Headphones",
+      "description": "Noise cancelling, Bluetooth 5.0",
+      "price": 75.50,
+      "stock": 25
+    },
+    {
+      "id": 3,
+      "name": "Python Programming Book",
+      "description": "From beginner to advanced",
+      "price": 15.00,
+      "stock": 100
+    },
+    {
+      "id": 4,
+      "name": "Laptop Backpack",
+      "description": "Water-resistant, fits 15-inch laptops",
+      "price": 35.99,
+      "stock": 50
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "description": "Portable and powerful sound",
+      "price": 45.00,
+      "stock": 30
+    },
+    {
+      "id": 6,
+      "name": "Gaming Mouse",
+      "description": "Ergonomic, RGB lighting",
+      "price": 22.00,
+      "stock": 40
+    },
+    {
+      "id": 7,
+      "name": "Mechanical Keyboard",
+      "description": "Blue switch, backlit",
+      "price": 60.00,
+      "stock": 20
+    },
+    {
+      "id": 8,
+      "name": "USB-C Hub",
+      "description": "5-in-1 with HDMI and USB 3.0",
+      "price": 29.99,
+      "stock": 35
+    },
+    {
+      "id": 9,
+      "name": "Wireless Charger",
+      "description": "Fast charging, universal compatibility",
+      "price": 19.50,
+      "stock": 60
+    },
+    {
+      "id": 10,
+      "name": "Webcam 1080p",
+      "description": "Full HD, built-in microphone",
+      "price": 39.99,
+      "stock": 28
+    },
+    {
+      "id": 11,
+      "name": "Fitness Tracker",
+      "description": "Heart rate and sleep monitor",
+      "price": 49.99,
+      "stock": 22
+    },
+    {
+      "id": 12,
+      "name": "LED Desk Lamp",
+      "description": "Touch control, 3 brightness levels",
+      "price": 18.00,
+      "stock": 45
+    },
+    {
+      "id": 13,
+      "name": "HDMI Cable",
+      "description": "2 meters, 4K support",
+      "price": 7.50,
+      "stock": 100
+    },
+    {
+      "id": 14,
+      "name": "External Hard Drive",
+      "description": "1TB USB 3.0",
+      "price": 59.99,
+      "stock": 18
+    },
+    {
+      "id": 15,
+      "name": "Smartwatch",
+      "description": "Notifications, health tracking",
+      "price": 89.00,
+      "stock": 15
+    },
+    {
+      "id": 16,
+      "name": "Mini Projector",
+      "description": "Portable, 1080p supported",
+      "price": 120.00,
+      "stock": 8
+    },
+    {
+      "id": 17,
+      "name": "Portable SSD",
+      "description": "500GB, high-speed USB-C",
+      "price": 99.00,
+      "stock": 10
+    },
+    {
+      "id": 18,
+      "name": "Wireless Earbuds",
+      "description": "Noise cancelling, 24h battery life",
+      "price": 65.00,
+      "stock": 25
+    },
+    {
+      "id": 19,
+      "name": "Smart LED Bulb",
+      "description": "Color changing, app control",
+      "price": 12.99,
+      "stock": 75
+    },
+    {
+      "id": 20,
+      "name": "Phone Tripod",
+      "description": "Adjustable, remote control included",
+      "price": 16.99,
+      "stock": 38
+    }
+  ]
+}

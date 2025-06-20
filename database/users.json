@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "first_name": "ali",
+            "last_name": "valiyev",
+            "birth_year": 2010,
+            "email": "ali@gmail.com"
+        },
+        {
+            "id": 1,
+            "first_name": "vali",
+            "last_name": "aliyev",
+            "birth_year": 2008,
+            "email": "vali@yandex.ru"
+        }
+    ]
+}
