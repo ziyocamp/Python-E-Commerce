@@ -1,3 +1,4 @@
+import hashlib
 import json
 
 
@@ -25,23 +26,47 @@ def update_db(file_name: str, data: dict) -> None:
     f.close()
 
 
-def add_user(first_name: str, last_name: str, birth_year: int, email: str) -> bool:
+def add_user(
+        first_name: str, 
+        last_name: str, 
+        birth_year: int, 
+        email: str, 
+        password: str
+    ) -> bool:
     users = read_db("users.json")
     
     if not users['users']:
         id = 0
     else:
         id = users['users'][-1]['id'] + 1
+        for user in users['users']:
+            if user['email'] == email:
+                return False
 
     user = {
         "id": id,
         "first_name": first_name,
         "last_name": last_name,
         "birth_year": birth_year,
-        "email": email
+        "email": email,
+        "password": hashlib.sha256(password.encode()).hexdigest()
     }
     users['users'].append(user)
 
     update_db("users.json", users)
     return True
+
+
+def get_user(email: str, password: str) -> dict:
+    users = read_db("users.json")
+
+    hashed_password = hashlib.sha256(password.encode()).hexdigest()
+
+    for user in users['users']:
+        if user['email'] == email and user['password'] == hashed_password:
+            users['session'] = user['id']
+            update_db('users.json', users)
+            return user
+
+    return {}
 

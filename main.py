@@ -1,5 +1,5 @@
 from termcolor import colored
-from register import register
+from users import register, login
 
 
 def show_menu() -> None:
@@ -20,7 +20,7 @@ def main() -> None:
         choice = input("Menu Tanlang: ")
 
         if choice == '1':
-            pass
+            login()
         elif choice == '2':
             register()
         elif choice == '3':
