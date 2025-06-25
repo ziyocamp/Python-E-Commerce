@@ -1,5 +1,6 @@
 from termcolor import colored
 from users import register, login
+from products import show_products
 
 
 def show_menu() -> None:
@@ -24,7 +25,7 @@ def main() -> None:
         elif choice == '2':
             register()
         elif choice == '3':
-            pass
+            show_products()
         elif choice == '4':
             pass
         elif choice == '5':

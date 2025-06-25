@@ -70,3 +70,8 @@ def get_user(email: str, password: str) -> dict:
 
     return {}
 
+
+def get_products() -> list[dict]:
+    products = read_db("products.json")
+
+    return products["products"]
